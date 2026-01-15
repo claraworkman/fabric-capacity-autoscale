@@ -84,9 +84,6 @@ To support unattended automation, all configuration and credentials are stored i
 | `TENANT_ID` | Entra tenant ID |
 | `CLIENT_ID` | Service principal client ID |
 | `CLIENT_SECRET` | Service principal secret |
-| `SUBSCRIPTION_ID` | Azure subscription containing the Fabric capacity |
-| `RESOURCE_GROUP` | Resource group containing the Fabric capacity |
-| `CAPACITY_NAME` | Azure resource name of the Fabric capacity |
 
 These secrets are retrieved in Fabric notebooks using:
 - Fabric Key Vault references, or
